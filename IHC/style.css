@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 40px;
+}
+
+.EcoVibe {
+    color: #2DA67A;
+    font-size: 40px;
+}
+
+.ul {
+    margin-left:170px;
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.ul li {
+    margin-right:200px;
+    color: #000000;
+    font-size: 30px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: #35966E;
+    position: fixed;
+    margin-top:18.3cm;
+}
+
+.abajo {
+    margin-left:85px;
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.abajo li {
+    color: white;
+    margin-right:200px;
+    font-size: 30px;
+    display: flex;
+}
+
+.abajo li a {
+    color: white;
+    text-decoration: none;
+}
+
+.abajo li a:hover {
+    text-decoration: underline;
+}
