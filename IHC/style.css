@@ -1,263 +1,231 @@
 body {
-    font-family: Poppins;
-    margin: 0;
-    padding: 0;
-    background-color: #f7f7f7;
-  }
-  
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
-    padding: 10px 40px;
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 40px;
 }
 
 .ul {
-    margin-left: 170px;
-    display: flex;
-    list-style: none;
-    width: 100%;
-    justify-content: flex-start;
+  margin-left: 170px;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: flex-start;
 }
 
 .ul li {
-    margin-top: 14.5px;
-    margin-right: 200px;
-    font-size: 22px;
+  margin-top: 7px;
+  margin-right: 200px;
+  font-size: 22px;
 }
 
 .ul li a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .ul li a:hover {
-    text-decoration: underline;
-    color: #2DA67A;
+  text-decoration: underline;
+  color: #2da67a;
 }
 
 .EcoVibe {
-    color: #2DA67A;
-    font-size: 30px;
+  color: #2da67a;
+  font-size: 30px;
 }
-  header {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
+header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-  .bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-    background-color: #35966E;
-    position: fixed;
-    margin-top:4.1cm;
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #35966e;
+  position: fixed;
+  margin-top: 1.8cm;
 }
 
 .abajo {
-    margin-left:160px;
-    display: flex;
-    list-style: none;
-    font-size: 30px;
-    width: 100%;
-    justify-content: flex-start;
+  margin-left: 160px;
+  display: flex;
+  list-style: none;
+  font-size: 30px;
+  width: 100%;
+  justify-content: flex-start;
 }
 
 .abajo li {
-    color: white;
-    margin-right:200px;
-    font-size: 25px;
-    display: flex;
+  margin-bottom: 4px;
+  color: white;
+  margin-right: 200px;
+  font-size: 25px;
+  display: flex;
 }
 
 .abajo li a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .abajo li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .campana {
-    margin-left: -20px;
-    margin-right: 60px;
-    width: 75px;
-    height: 50px;
+  margin-top: 4px;
+  margin-left: -20px;
+  margin-right: 60px;
+  width: 55px;
+  height: 30px;
 }
 .dinero {
-    margin-right: 60px;
-    width: 80px;
-    height: 50px;
+  margin-top: 4px;
+  margin-right: 60px;
+  width: 60px;
+  height: 30px;
 }
 .usuario {
-    margin-right: 60px;
-    width: 85px;
-    height: 65px;
-    margin-top: -5px;
+  margin-right: 60px;
+  width: 60px;
+  height: 40px;
+  margin-top: 1.2px;
 }
 
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin-right: 20px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-  }
-  
-  nav .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #44a048;
-  }
-  
-  .iconos img {
-    width: 20px;
-    margin-left: 15px;
-  }
-  
-  .hero {
-    background: linear-gradient(to right, #c6e7e2, #f8f8d4);
-    padding: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .hero h1 {
-    font-size: 16px;
-    color: #8ca4a8;
-  }
-  
-  .hero button {
-    background-color: #44a048;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .hero img {
-    width: 200px;
-  }
-  
-  .resumen {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px;
-    background-color: #fff;
-    margin-bottom: 20px;
-  }
-  
-  .resumen .resumen-dia {
-    flex: 1;
-    margin-right: 20px;
-  }
-  
-  .card-resumen {
-    width: 200px;
-    height: 100px;
-    background-color: #eee;
-    border-radius: 10px;
-  }
-  
-  .consejos {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .consejos h3 {
-    margin-bottom: 10px;
-    font-size: 18px;
-  }
-  
-  .consejos p {
-    font-size: 16px;
-    color: #333;
-  }
-  
-  .registro-datos {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-  }
-  
-  .registro-container {
-    background-color: #ffebcc;
-    padding: 20px;
-    border-radius: 10px;
-    position: relative;
-  }
-  
-  .registro-container button {
-    background-color: white;
-    color: black;
-    font-family: poppins;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 10px;
-  }
-  
-  .registro-container p {
-    font-size: 14px;
-    color: #333;
-    margin: 0;
-  }
+.iconos img {
+  width: 20px;
+  margin-left: 15px;
+}
 
-  .noticias {
-    padding: 30px;
-    background-color: #f9f9f9;
-  }
-  
-  .noticias-container {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .noticia-card img {
-    width: 200px;
-    border-radius: 10px;
-  }
-  
-  footer {
-    background-color: #44a048;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  footer ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  footer ul li {
-    display: inline;
-    margin: 0 15px;
-  }
-  
-  footer a {
-    text-decoration: none;
-    color: white;
-  }
-  
+.hero {
+  background: linear-gradient(to right, #c6e7e2, #f8f8d4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45cm;
+  height: 5cm;
+  margin-left: 100px;
+  border-radius: 15px;
+}
+
+.hero h1 {
+  font-size: 25px;
+  margin-left: 12cm;
+  color: #8ca4a8;
+  margin-bottom: 40px;
+}
+
+.hero button {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  margin-left: 13.5cm;
+  margin-top: -10px;
+}
+
+.hero img {
+  width: 12cm;
+  height: 120px;
+  margin-right: 230px;
+}
+
+.resumen {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.resumen h2 {
+  margin-left: 30px;
+}
+
+.resumen .resumen-dia {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.card-resumen {
+  width: 290px;
+  height: 150px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  margin-left: 80px;
+}
+
+.consejos {
+  flex: 1;
+  text-align: center;
+}
+
+.consejos h3 {
+  margin-bottom: 30px;
+  font-size: 18px;
+  margin-right: 10cm;
+}
+
+.consejos p {
+  font-size: 16px;
+  color: #333;
+  margin-right: 10cm;
+}
+
+.registro-container {
+  background-color: #fdd4a1;
+  padding: 20px;
+  border-radius: 15px;
+  position: relative;
+  margin-right: 50px;
+}
+
+.registro-container button {
+  background-color: white;
+  color: black;
+  font-family: poppins;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-left: 60px;
+}
+
+.registro-container p {
+  font-size: 14px;
+  color: #333;
+}
+
+.noticias h2 {
+  margin-left: 60px;
+}
+
+.noticias-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.noticia-card img {
+  width: 200px;
+  margin-left: 105px;
+  border-radius: 10px;
+  margin-right: 190px;
+}
