@@ -1,0 +1,487 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  /* Estilos generales */
+  body {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 40px;
+}
+
+.ul {
+    margin-left: 170px;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.ul li {
+    margin-top: 14.5px;
+    margin-right: 200px;
+    font-size: 22px;
+}
+
+.ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.ul li a:hover {
+    text-decoration: underline;
+    color: #2DA67A;
+}
+
+.EcoVibe {
+    color: #2DA67A;
+    font-size: 30px;
+}
+
+.campana {
+    margin-left: -20px;
+    margin-right: 60px;
+    width: 75px;
+    height: 50px;
+}
+.dinero {
+    margin-right: 60px;
+    width: 80px;
+    height: 50px;
+}
+.usuario {
+    margin-right: 60px;
+    width: 85px;
+    height: 65px;
+    margin-top: -5px;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #2DA67A;
+    position: fixed;
+    margin-top:2.1cm;
+  }
+
+.abajo {
+    margin-left:160px;
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.abajo li {
+    margin-top: 5px;
+    color: white;
+    margin-right:200px;
+    font-size: 25px;
+    display: flex;
+}
+
+.abajo li a {
+    color: white;
+    text-decoration: none;
+}
+
+.abajo li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .header h1 {
+    font-size: 24px;
+    color: #2DA67A;
+  }
+  
+  .header nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .header nav a:hover {
+    color: #2DA67A;
+  }
+  
+  /* Contenido principal */
+  .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 40px;
+  }
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .form-section {
+    margin-top: 40px;
+    border:solid 1px;
+    flex: 1;
+    background-color:white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Formulario de inicio de sesión */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .login-form button[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2DA67A;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .login-form button[type="submit"]:hover {
+    background-color: #2DA67A;
+  }
+  
+  /* Opciones de inicio de sesión con redes sociales */
+  .social-login p {
+    font-size: 14px;
+    color: #777;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .social-login button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .google-login {
+    background-color: #4285f4;
+    color: white;
+  }
+  
+  .facebook-login {
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .apple-login {
+    background-color: #333;
+    color: white;
+  }
+  
+  .extra-links {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .extra-links a {
+    color: #2DA67A;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .extra-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  .footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #2DA67A;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  /* Selección de tipo de cuenta */
+  .selection-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    font-family: Arial, sans-serif;
+    margin-top: 7.5cm;
+  }
+  
+  .selection-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .account-type-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .account-type-buttons button {
+    padding: 15px 30px;
+    background-color: #2DA67A;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .account-type-buttons button:hover {
+    background-color: #2DA67A;
+  }
+  /* Registro */
+  .register-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 40px;
+  }
+  
+  .register-image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .register-image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .register-form-section {
+    border: solid 1px;
+    flex: 1;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-form-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Formulario de registro */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-form label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .register-form input,
+  .register-form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .register-form button[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2DA67A;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .register-form button[type="submit"]:hover {
+    background-color: #2DA67A;
+  }
+  /* Recuperacion de contraseña */
+  .recover-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 40px;
+  }
+  
+  .recover-image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .recover-image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  
+  .recover-form-section {
+    margin-top: 140px;
+    flex: 1;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recover-form-section h2 {
+    
+    font-size: 24px;
+    color: #2DA67A;
+    margin-bottom: 10px;
+  }
+  
+  .recover-form-section p {
+    
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Formulario de recuperación */
+  .recover-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .recover-form label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .recover-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .recover-form button[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2DA67A;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .recover-form button[type="submit"]:hover {
+    background-color: #2DA67A;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2DA67A;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,60 @@
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #35966e;
+    position: fixed;
+    bottom: 0;
+    margin-top: auto;
+}
+
+.abajo {
+    margin-left:160px;
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.abajo li {
+    margin-top: 5px;
+    color: white;
+    margin-right:200px;
+    font-size: 25px;
+    display: flex;
+}
+
+.abajo li a {
+    color: white;
+    text-decoration: none;
+}
+
+.abajo li a:hover {
+    text-decoration: underline;
+}
+.EcoVibe a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+  .register-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-image-section img {
+    max-width: 20cm;
+    height: 15cm;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.register-form-section {
+    max-width: 20cm;
+    margin-right: 100px;
+}
